@@ -1,4 +1,3 @@
-require 'pry'
 require 'gruff'
 require 'csv'
 
@@ -35,7 +34,6 @@ g.theme = {
   :background_colors => 'white'
 
 }
-
 
 g.minimum_value = 0
 g.title = 'Advertising Scatter Plot'
