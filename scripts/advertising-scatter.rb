@@ -32,9 +32,15 @@ g.theme = {
   :marker_color => 'black',
   :font_color => 'black',      
   :background_colors => 'white'
-
 }
 
+g.x_axis_label = "Units (in thousands)"
+g.y_axis_label = "Thousands of Dollars"
+
+g.right_margin = 30
+
+g.maximum_value = 30
 g.minimum_value = 0
+
 g.title = 'Advertising Scatter Plot'
 g.write('../plots/scatter_advertising.png')
